@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>moaraqh</title>
+    <link rel="stylesheet" href="css.css">
+    <style>
+        .form-r{
+            margin: 30px auto;
+            border-radius: 20px;
+            padding: 50px;
+            width: 200px;
+            background-color:rgba(204, 204, 204, 0.431);
+        }
+        .form-label{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            width: 0px;
+        }
+        .form_input{
+            text-align: center;
+            width: 100px;
+
+        }
+        .dokme-form{
+            border-radius: 20px;
+            padding: 10px;
+            margin: 15px;
+            transition: all .4s;
+        
+        }
+        .dokme-form:hover{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+        </header>
+        <div class="bg-list">
+        <nav class="list">
+            <li class="list-li"><a class="list-link" href="index.html">صفحه نخست</a></li>
+            <li class="list-li"><a class="list-link" href="register.html"><span class="span-list"> عضویت</span></a></li>
+            <li class="list-li"><a class="list-link" href="login.html">ورود</a></li>
+            <li class="list-li"><a class="list-link" href="more.html">درباره ما</a></li>
+        </nav>
+    </div>
+        <section>
+            <form dir="rtl" class="form-r" method="POST" action="form-register">
+                <label class="form-label" for="name">نام</label>
+                <input class="form_input" type="text" id="name" name="name">
+                <br><br>
+                <label class="form-label" for="family">نام خانوادگی</label>
+                <input class="form_input" type="text" id="family" name="family">
+                <br><br>
+                <label class="form-label" for="username">نام کاربری</label>
+                <input class="form_input" type="text" id="username" name="username">
+                <br><br>
+                <label class="form-label" for="password">رمزعبور</label>
+                <input class="form_input" type="password" id="password" name="password">
+                <br><br>
+                <label class="form-label" for="">تکرار رمزعبور</label>
+                <input class="form_input" type="password" name="password" id="password">
+                <br><br>
+                <label class="form-label" for="email">ایمیل</label>
+                <input class="form_input" type="email" name="email" id="email">
+                <br><br>
+                <input class="dokme-form" type="submit" value="ثبت">
+                <input class="dokme-form" type="reset" value="جدید">
+            </form>
+        </section>
+        <footer class="footer-css">
+            <p class="copy"> &copy; 2021 کلیه ی حقوق سایت محفوظ میباشد</p>
+        </footer>
+    </div>
+</body>
+</html

@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bg-list{
+    width: 100%;
+    height: 350px;
+    background: url(img/pastels-wordpress-art.jpg) center no-repeat rebeccapurple ;
+}
+.list{
+    text-align: center;
+    padding-top: 305px;
+
+}
+.list-li{
+    list-style: none;
+    display: inline;
+}
+.list-link{
+    font-size: 25px;
+    font-family: unset;
+    text-decoration: none;
+    color: #7f8c8d;
+    border-radius: 5px;
+    margin: 12px;
+    padding: 8px;
+    border: 1px solid #fff200;
+    transition: all .5s;
+}
+.span-list{
+    color: #fff200;
+}
+.list-link:hover{
+    padding: 3px;
+}
+.footer-css{
+    margin-top: 100px;
+    background-color: #2d3436;
+    width: 100%;
+    height: 100px;
+}
+.copy{
+    text-align: center;
+    padding-top: 40px;
+}
+.section{
+}
+.poster{
+    padding-left: 500px;
+}
+.poster2{
+    margin-top: 100px;
+    padding-left: 500px;
+}
+.para{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(204, 204, 204, 0.164);
+    width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 20px;
+}
+.div-img{
+    margin-top: 100px;
+    border-radius:50px ;
+    text-align: center;
+    background-color:   rgba(204, 204, 204, 0.459);
+    margin-left:50px ;
+    margin-right: 50px;
+}
+.img-img{
+    width: 200px;
+    padding: 20px;
+    height: 250px;
+}
